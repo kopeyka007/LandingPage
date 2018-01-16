@@ -1,0 +1,137 @@
+@media only screen and (max-width: 1200px){
+
+}
+@media only screen and (max-width: 992px){
+.wrapper-buttons{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+    .top-image{
+        display:flex;
+        justify-content: center;
+    }
+    .middle-image{
+        display:flex;
+        justify-content: center;
+    }
+    .middle-text{
+        text-align: center;
+    }
+    .medium-content{
+        text-align: center;
+    }
+    .icon{
+        margin: 25px auto;
+    }
+   .block-image{
+       display: flex;
+       justify-content: center;
+   }
+   .block-item{
+       text-align: center;
+   }
+  .round-button{
+      margin: 20px auto;
+  }
+    .block{
+        padding-bottom:100px;
+        padding-top:100px;
+    }
+    .block img{
+        margin-top:65px;
+    }
+    .block5{
+        padding-top:100px;
+        padding-bottom:100px;
+    }
+    .block6{
+        padding-top:70px;
+        padding-bottom:20px;
+    }
+    .block7-item{
+        margin-bottom:50px;
+    }
+    .block9 img{
+        margin: 50px auto;
+
+    }
+    .block9{
+        padding-bottom:60px;
+    }
+    .block10{
+       padding-top: 100px;
+    }
+    .item{
+        margin-top:30px;
+    }
+    .block11{
+        text-align: center;
+    }
+    .block12-text{
+        padding-top:100px;
+        padding-bottom:60px;
+    }
+}
+@media only screen and (max-width: 768px){
+.top-image{
+    display:none;
+}
+    .top{
+        padding-bottom: 100px;
+    }
+    .main-text{
+        text-align: center;
+    }
+
+
+}
+@media only screen and (max-width: 480px){
+
+}
+@media only screen and (max-width: 320px){
+
+}
+
+
+@media only screen and (min-width: 992px) {
+    .main-text{
+        margin-top:270px;
+
+    }
+    .medium-item{
+        margin-top: 65px;
+    }
+    .block{
+        padding-top:130px;
+        padding-bottom: 135px;
+    }
+    .block5-text{
+        margin-top:130px;
+        margin-bottom:100px;
+    }
+    .block6{
+        padding-top:130px;
+        padding-bottom:100px;
+    }
+    .block8{
+        padding-top:130px;
+        padding-bottom:100px;
+    }
+    .block10{
+        padding-top:130px;
+        padding-bottom:100px;
+    }
+    .block10 .item{
+        border: 1px solid lightgray;
+    }
+    .block12-text{
+        padding-top:130px;
+        padding-bottom:100px;
+    }
+
+
+}
+
+
+

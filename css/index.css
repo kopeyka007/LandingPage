@@ -1,0 +1,393 @@
+body{
+    padding: 0;
+    margin:0;
+}
+
+
+
+/*Class top*/
+.top{
+    background-image: url("../images/top_background.gif");
+    overflow: hidden;
+}
+.logo{
+    font-size:36px;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    margin-top:50px;
+}
+nav{
+    margin-top:40px;
+}
+ul li{
+    font-size: 14px;
+    font-family:'Raleway', sans-serif;
+    color:white;
+    text-align: center;
+
+}
+.decorate-line{
+    border-bottom: solid 1px #3ea2e9;
+    height: 5px;
+}
+.main-text h1{
+    font-size:54px;
+    color:white;
+    font-family:'RalewayLight', sans-serif;
+}
+.main-text div{
+    font-size: 18px;
+    color:white;
+    margin-top:45px;
+    font-family:'RalewayRegular', sans-serif;
+}
+strong{
+    font-family:'RalewayBold', sans-serif;
+}
+.main-text button{
+    margin-top:50px;
+    margin-right: 30px;
+}
+
+.button{
+    width:165px;
+    height:55px;
+    border-radius:30px;
+    border: 2px solid white;
+    background-color: transparent;
+    color:white;
+
+}
+
+.button:hover{
+    background-color: white;
+    cursor:pointer;
+    color:#0F8FE9;
+}
+h1{
+    font-size: 52pt;
+    line-height: 64pt;
+    font-family: 'Raleway', sans-serif;
+    color:white;
+}
+.top-image{
+    padding-top:130px;
+}
+
+/*Class middle*/
+.middle{
+    background-color:#F4F4F4 ;
+    padding-top:115px;
+}
+.middle h2{
+font-size:36px;
+    font-family:'RalewayLight', sans-serif;
+}
+.middle-text{
+    line-height:26px;
+    font-size: 14px;
+    font-family:'RalewayMedium', sans-serif;
+
+}
+.middle-text div{
+    margin-top: 37px;
+    color:#737373
+}
+.middle button{
+    width:165px;
+    height:60px;
+    background-color: #2095F2;
+    border-radius: 2px;
+    border:none;
+    color:white;
+}
+.middle button:hover{
+background-color:white;
+color:#2095F2; 
+border:1px solid #2095F2;
+
+
+}
+
+
+.middle-buttons button{
+margin-bottom:3px;
+}
+/* class medium*/
+.medium{
+    padding-top:115px;
+}
+.medium h2{
+    font-size:36px;
+    font-family:'RalewayLight', sans-serif;
+    margin-bottom:25px;
+
+}
+.medium-text{
+    line-height:26px;
+    font-size: 14px;
+    font-family:'RalewayLight', sans-serif;
+    margin-top: 42px;
+}
+.medium strong{
+   font-family:'RalewaySemiBold', sans-serif;;
+}
+.medium i {
+    color:#2095F2;
+    vertical-align: middle;
+}
+.icon{
+    width:65px;
+    height:65px;
+    border-radius:30px;
+    background-color: #2095F2;
+    text-align: center;
+}
+.icon i {
+    margin-top:20px;
+    color:white;
+}
+.medium-content{
+    margin-top:88px;
+    padding-bottom:150px;
+}
+
+
+/*block4*/
+.block4{
+   position:relative;
+    background: rgba(0, 0, 0, 0.5);
+}
+.block4 img{
+    min-height: 300px;
+}
+.block4-play{
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-30px;
+    margin-top:-30px;
+
+}
+.round-button{
+    width:68px;
+    height:68px;
+    border-radius: 35px;
+    background-color: #2095F2;
+}
+.flex{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+/*block*/
+.block-text{
+    margin-bottom:55px;
+}
+.block .round-button i {
+    color: white;
+}
+.block-text i{
+    color:#2095F2
+}
+.round-button i{
+    margin-top:15px;
+    color:white;
+}
+.block-item{
+    margin-top:65px;
+}
+
+/*block5*/
+.block5{
+    background-color: #2095F2;
+    padding-bottom: 100px;
+}
+.block5-text{
+    color:white;
+    font-family:'RalewayLight', sans-serif;;
+}
+.block5-button{
+    background-color: #FFFFFF;
+    border: 5px solid transparent;
+    line-height: 60px;
+
+}
+.block5-item h2{
+    font-family:'RalewaySemiBold', sans-serif;
+    font-size: 24px;
+    line-height: 26px;
+    margin-bottom: 37px;
+}
+.block5-item{
+    color:white;
+}
+.round-button i {
+    color: #2095F2;
+}
+
+
+/*block7*/
+.block7{
+    margin-top:100px;
+    background-color: #F4F3F3;
+    padding-top:200px;
+    padding-bottom:100px;
+}
+.block7 i {
+    color: #2095F2;
+}
+.block7 h1{
+    color:#333333
+}
+
+/*block 8*/
+.block8{
+    padding-bottom:100px;
+}
+.block8-text i{
+    color: #2095F2;
+}
+
+.block9{
+    padding-top: 100px;
+    background-color:#2095F2 ;
+}
+.block9-text{
+    color: white;
+}
+.block9 input{
+    margin-top:30px;
+}
+.image-2{
+    margin-top:70px;
+}
+
+
+/*block10*/
+.block10{
+    background-color:#FFFFFF;
+}
+.item-header{
+    background-color:#F4F3F3 ;
+    border-radius:3px;
+    padding: 30px 0 30px 0;
+    font-family:'RalewayMedium', sans-serif;
+    font-size: 30px;
+    margin-bottom:50px;
+    color:black;
+}
+.colored{
+    background-color:#2095F2 ;
+    color:white;
+}
+.colored-btn{
+    background-color:#2095F2 !important;
+    border:none; !important;
+}
+.item p{
+    font-size:14px;
+    line-height: 36px;
+    font-family:'RalewayRegular', sans-serif;
+}
+.first-div{
+    margin-top:65px;
+}
+.check-box{
+    position:relative;
+}
+.check-box span{
+    background-color: white;
+    color:#2095F2 !important;
+    position:absolute;
+    display: inline-block;
+    width:30px;
+    height: 30px;
+    text-align: center;
+    right:0;
+    top:50%;
+    margin-top: -15px;
+    margin-right: 15px;
+
+;
+}
+.price{
+    font-size: 50px;
+}
+.item button{
+    width:160px;
+    background-color: white;
+    padding:13px;
+    border-radius: 40px;
+    margin-bottom:50px;
+    border:1px solid grey
+}
+.item button:hover{
+background-color:#2095F2;
+color:white;
+border:none;
+
+
+}
+/*block11*/
+.block11{
+background-color: #F4F4F4;
+    padding: 65px 0 65px 0
+}
+.check-box{
+    background-color:#2095F2 ;
+    color:white;
+    line-height:40px;
+    padding: 0 25px 0 25px;
+    font-family:'RalewaySemiBold', sans-serif;
+    font-size: 16px;
+    margin-bottom:14px;
+
+}
+.carousel-control.right,
+.carousel-control.left {
+    background-image: none;
+}
+/*block12*/
+.block12 i{
+    color:#2095F2 ;
+}
+#carousel{
+    margin: 20px auto;
+}
+.carousel-indicators{
+    z-index: 100000;
+    display: block !important;
+}
+.item{
+    margin-top:100px;
+
+}
+.controller{
+    cursor:pointer:;
+}
+.parent{
+
+    position: relative;
+    padding-top: 30%;
+    width:100%;
+
+}
+video{
+ position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+margin: auto;
+}
+.inner-html{
+    width:100%;
+    height:50px;
+    background-color:white;
+    display:none;
+}
